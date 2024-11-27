@@ -1,0 +1,54 @@
+
+
+#root {
+  background-color: black;
+  margin: 0 auto;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.custom-button {
+  width: 25%;
+}
+
+@media (max-width: 576px) {
+  .custom-button {
+    width: 50%;
+  }
+}
+
+.responsive-section {
+  width: 50%;
+}
+
+@media (max-width: 576px) {
+  .responsive-section {
+    width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-section {
+    width: 100%;
+  }
+}

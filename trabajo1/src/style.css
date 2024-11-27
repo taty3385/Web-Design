@@ -1,0 +1,33 @@
+.swiper {
+    width: 95%;
+    height: 50vh;
+
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   
+    width: "25%";
+  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+  }
+
+  .card-zoom {
+  transition: transform 0.3s ease;  
+}
+
+.card-zoom:hover {
+  transform: scale(1.1);  
+}
